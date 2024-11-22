@@ -1,0 +1,73 @@
+:root {
+    --primary-color: #011627;
+    --secondary-color: #4DA1A9;
+    --accent-color-1: #A7E2E3;
+    --accent-color-2: #EEE5E9;
+    --heading-font: 'Sour Gummy';
+    --text-font: 'Nunito';
+}
+body {
+    width: 36%;
+}
+
+article {
+    background-color: var(--accent-color-2);
+    opacity: 0.8;
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    font-family: var(--text-font);
+    color: var(--primary-color);
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+footer nav a{
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.hero h1 {
+    position: relative;
+    color: var(--accent-color-1)
+}
+
+.header img {
+    width: 5em;
+}
+
+.hero article img {
+    float: right;
+    width: 180px;
+    height: auto;
+    clear: both;
+    margin: 20px;
+    position: relative;
+}
+section {
+    position: relative;
+    margin-top: 3rem;
+}
+
