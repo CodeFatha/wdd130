@@ -108,7 +108,6 @@ section {
 #gallery {
     display: grid;
     grid-template-columns: auto;
-    gap: 10px;
 }
 
 .adventure-heading {
