@@ -7,17 +7,24 @@
     --text-font: 'Nunito';
 }
 body {
-    width: 36%;
+    width: 40%;
 }
 
 article {
     background-color: var(--accent-color-2);
     opacity: 0.8;
+    position: relative;
+    margin: 2em;
+    padding: 1em;
 }
 
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    margin: 1em;
+    padding-top: 1em;
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -30,8 +37,31 @@ p {
     color: var(--primary-color);
 }
 
+.header {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: large;
+}
+
 header nav a {
     text-decoration: none;
+}
+
+.header img {
+    width: 4em;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
 
 footer nav a{
@@ -45,17 +75,13 @@ footer nav a{
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
     position: absolute;
+    margin-bottom: 2em;
 }
 
 .hero h1 {
     position: relative;
     color: var(--accent-color-1)
-}
-
-.header img {
-    width: 5em;
 }
 
 .hero article img {
@@ -67,7 +93,48 @@ footer nav a{
     position: relative;
 }
 section {
-    position: relative;
     margin-top: 3rem;
+}
+
+#history {
+    display: flex;
+    flex-direction: column;
+}
+
+#history h2 {
+    align-self: center;
+}
+
+#gallery {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+}
+
+.adventure-heading {
+    grid-column: 1/4;
+    justify-self: center;
+}
+
+.kayak-land {
+    grid-column: 1/2;
+    grid-row:2/3;
+}
+.canyon {
+    grid-column: 2/3;
+    grid-row:2/3;
+}
+
+.group-raft {
+    grid-column: 3/4;
+    grid-row:2/3;
+}
+.individual-kayak {
+    grid-column: 1/2;
+    grid-row:3/4;
+}
+.land-kayak {
+    grid-column: 2/3;
+    grid-row:3/4;
 }
 
