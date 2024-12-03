@@ -40,6 +40,8 @@ p {
 .header {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 header nav {
