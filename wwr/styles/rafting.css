@@ -7,7 +7,7 @@
     --text-font: 'Nunito';
 }
 body {
-    width: 40%;
+    width: 60%;
 }
 
 article {
@@ -60,30 +60,25 @@ header nav a {
 footer {
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    gap: 20px;
+    margin-top: 20px;
 }
-
 footer nav a{
     text-decoration: none;
 }
-
 .hero {
     position: relative;
 }
-
 .hero img {
     display: block;
     width: 100%;
     position: absolute;
     margin-bottom: 2em;
 }
-
 .hero h1 {
     position: relative;
     color: var(--accent-color-1)
 }
-
 .hero article img {
     float: right;
     width: 180px;
@@ -95,26 +90,21 @@ footer nav a{
 section {
     margin-top: 3rem;
 }
-
 #history {
     display: flex;
     flex-direction: column;
 }
-
 #history h2 {
     align-self: center;
 }
-
 #gallery {
     display: grid;
     grid-template-columns: auto;
 }
-
 .adventure-heading {
     grid-column: 1/4;
     justify-self: center;
 }
-
 .kayak-land {
     grid-column: 1/2;
     grid-row:2/3;
@@ -123,7 +113,6 @@ section {
     grid-column: 2/3;
     grid-row:2/3;
 }
-
 .group-raft {
     grid-column: 3/4;
     grid-row:2/3;
@@ -136,4 +125,48 @@ section {
     grid-column: 2/3;
     grid-row:3/4;
 }
+.flex {
+    display: flex;
+}
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.center {
+    justify-content: center;
+    align-items: center;
+}
+#purpose {
+    padding: 5px;
+}
+.profile img {
+    width: 200px;
+    padding: 10px;
+}
+.form {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+input, textarea, select {
+    width: 60%;
+}
+iframe {
+    border: 0;
+}
+.map {    
+    display: flex;
+    justify-content: center;
+}
+button {
+    background-color: blue;
+    color: #EEE5E9;
+    width: 100px;
+    padding: 7px;
+    border-radius: 5px;
+    border: #A7E2E3;
+}
+button:hover {
+    background-color: #6F8FAF;
+}

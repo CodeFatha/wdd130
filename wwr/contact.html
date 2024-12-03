@@ -15,7 +15,7 @@
 </head>
 <body>
     <header>
-        <div class="header flex center">
+        <div class="header">
             <img src="images/rafting_club_logo.png" alt="logo">
             <nav class="flex space-even">
                 <a href="index.html">Home</a>
@@ -28,57 +28,59 @@
     <main>
     <h2 class="flex center">Contact Us</h2>
     <h3  class="flex center">White water rafting</h3>
-    <div class="flex employees flex center">
+    <div class="employees flex center">
         <div class="profile">
             <img class="prof-pic" src="../images/thabani.jpg" alt="thabani_profile_pic">
-            <p class="employee-name flex">Thabani Khuphe</p>
-            <p class="employee-position flex">Tour Guide</p>
+            <p class="employee-name flex center">Thabani Khuphe</p>
+            <p class="employee-position flex center">Tour Guide</p>
         </div>
         <div class="profile">
             <img class="prof-pic" src="../images/jean.jpg" alt="jean_profile_pic">
-            <p class="employee-name flex">Jean Scott</p>
-            <p class="employee-position flex">Safety Officer</p>
+            <p class="employee-name flex center">Jean Scott</p>
+            <p class="employee-position flex center">Safety Officer</p>
         </div>
         <div class="profile">
             <img class="prof-pic" src="../images/istockphoto-1352025984-612x612.jpg" alt="tapelo_profile_pic">
-            <p class="employee-name flex">Tapelo Motsumi</p>
-            <p class="employee-position flex">Operations Manager</p>
+            <p class="employee-name flex center">Tapelo Motsumi</p>
+            <p class="employee-position flex center">Operations Manager</p>
         </div>
     </div>
-    <form class="flex-col center">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email">
-        <label for="purpose">Purpose:</label>
-        <select id="purpose" name="purpose">
-            <option value="none" disabled>Select Option</option>
-            <option value="general">General Inquiry</option>
-            <option value="reservation">Reservation Question</option>
-            <option value="suggestion">Website Suggestion</option>
-        </select>
-        <label for="message" name="purpose">Message</label>
-        <textarea id="message" name="message" rows="5"></textarea>
-        <button>Submit</button>
-      </form>
-    <div class="flex center">
+    <div class="form">        
+        <form class="flex-col center">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="purpose">Purpose:</label>
+            <select id="purpose" name="purpose">
+                <option value="general">General Inquiry</option>
+                <option value="reservation">Reservation Question</option>
+                <option value="suggestion">Website Suggestion</option>
+            </select>
+            <label for="message" name="purpose">Message</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+            <button>Submit</button>
+        </form>
+    </div>
+    <div class="flex center contact">
         <i class="material-icons">location_on</i>
         <p>63 Zwavelpoort Street, Pretoria, South Africa, 0081</p>
     </div>
-    <div class="flex center">
+    <div class="flex center contact">
         <i class="material-icons">email</i>
         <p>admin@whiterwaterrafting.com</p>
     </div>
-    <div class="flex center">
+    <div class="flex center contact">
         <i class="material-icons">phone</i>
         <p>+27 12 345 6789</p>
     </div>
-
-    <iframe 
-        class="flex center"
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17082.647828279612!2d28.344319347281157!3d-25.830470651729097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955d67ea750773%3A0x372897423400fb0f!2sOn%20The%20Rocks!5e0!3m2!1sen!2sza!4v1733171112452!5m2!1sen!2sza" 
-        width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+    <div class="map">
+        <iframe 
+            class="flex center"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17082.647828279612!2d28.344319347281157!3d-25.830470651729097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e955d67ea750773%3A0x372897423400fb0f!2sOn%20The%20Rocks!5e0!3m2!1sen!2sza!4v1733171112452!5m2!1sen!2sza" 
+            width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
     </main>
     <footer class="flex center">
         <p>©2024 | White Water Rafting | Bhekimpilo Ncube</p>
