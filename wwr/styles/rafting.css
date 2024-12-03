@@ -172,3 +172,12 @@ button {
 button:hover {
     background-color: #6F8FAF;
 }
+.no-wrap {
+    flex-wrap: nowrap;
+}
+label {
+    margin-right: 30px;
+}
+.checkbox {
+    width: 25px;
+}

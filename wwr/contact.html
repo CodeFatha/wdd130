@@ -26,8 +26,8 @@
         </div>
     </header>
     <main>
-    <h2 class="flex center">Contact Us</h2>
-    <h3  class="flex center">White water rafting</h3>
+    <h1 class="flex center">Contact Us</h1>
+    <h2  class="flex center">White water rafting</h2>
     <div class="employees flex center">
         <div class="profile">
             <img class="prof-pic" src="../images/thabani.jpg" alt="thabani_profile_pic">
@@ -52,14 +52,21 @@
             <label for="email">Email:</label>
             <input type="text" id="email" name="email">
             <label for="purpose">Purpose:</label>
-            <select id="purpose" name="purpose">
-                <option value="general">General Inquiry</option>
-                <option value="reservation">Reservation Question</option>
-                <option value="suggestion">Website Suggestion</option>
-            </select>
+            <div class="radio flex center">
+                <input class="radio" type="radio" name="general" id="general" value="general" checked>
+                <label class="flex no-wrap" for="general">General Inquiry</label>
+                <input class="radio" type="radio" name="reservation" id="reservation">
+                <label class="flex no-wrap" for="reservation">Reservation Question</label>
+                <input class="radio" type="radio" name="suggestion" id="suggestion">
+                <label class="flex no-wrap" for="suggestion">Website Suggestion</label>
+            </div>
             <label for="message" name="purpose">Message</label>
             <textarea id="message" name="message" rows="5"></textarea>
-            <button>Submit</button>
+            <div class="check">
+                <input class="checkbox" type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
+            <button type="submit">Submit</button>
         </form>
     </div>
     <div class="flex center contact">
