@@ -61,6 +61,7 @@ header nav a {
 
 footer {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     margin-top: 20px;
@@ -138,6 +139,7 @@ section {
 .center {
     justify-content: center;
     align-items: center;
+    justify-self: center;
 }
 #purpose {
     padding: 5px;
@@ -180,4 +182,107 @@ label {
 }
 .checkbox {
     width: 25px;
+}
+.banner {
+    margin: 30px;
+}
+.pic-frame {
+    border: 4px solid goldenrod;
+    margin: 10px;
+    padding: 2px;
+}
+.fa {
+    font-size: 2em;
+    color: var(--secondary-color);
+}
+.frame-label {
+    font-family: var(--heading-font);
+    font-weight: 400
+}
+.info {
+    background-color: var(--primary-color);
+    position: relative;
+    min-width: 400px;
+    height: 250px;
+    left: 20px;
+    bottom: 25px;
+    z-index: 20;
+    border-radius: 10px;
+}
+.pitch {
+    background-color: var(--secondary-color);
+    padding: 40px;
+}
+.image-1 {
+    z-index: 0;
+    position: relative;
+    float: right;
+    left: -150px;
+    bottom: -20px;
+}
+.white-text {
+    color: #fff;
+    margin: 1.2em;
+}
+
+.center-self {
+    align-self: center;
+}
+
+.action {
+    display: flex;
+    justify-self: center;
+}
+.call {    
+    text-decoration: none;
+}
+.image-div {
+    height: 200px;
+    width: 50%;
+}
+.image-div img {
+    width: 70%;
+}
+.trip-text {
+    height: 200px;
+    width: 50%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.no-block-start {
+    margin-block-start: -10px;
+}
+.trip-info {
+    justify-content: center;
+}
+.float-right {
+    float: right;
+    justify-content: end;
+    margin-right: 15px;
+
+}
+.packages {
+    width: 80%;
+}
+.button {
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    margin: 5px;
+    padding: 5px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    color: white;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: var(--accent-color-1);
+    color: var(--primary-color);
+}
+
+.no-flex {
+    display: flex;
+    flex-direction: column;
 }
