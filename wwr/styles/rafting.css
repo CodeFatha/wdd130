@@ -268,6 +268,7 @@ label {
     text-decoration: none;
     background-color: var(--secondary-color);
     margin: 5px;
+    margin-left: 10px;
     padding: 5px;
     width: 100px;
     display: flex;
@@ -285,4 +286,17 @@ label {
 .no-flex {
     display: flex;
     flex-direction: column;
+}
+.no-margin {
+    margin: 5px;
+}
+.restrict-width {
+    max-width: 14rem;
+}
+.space-evenly {
+    justify-content: space-between;
+}
+table, th, td {
+    margin-top: 4em;
+    border: 1px solid #000;
 }
